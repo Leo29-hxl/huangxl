@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>chapter3_2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <description></description>
+  <display-name>ServletDemo4</display-name>
+  <servlet-name>ServletDemo4</servlet-name>
+  <servlet-class>cn.itcast.chapter3_2.servlet.ServletDemo4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ServletDemo4</servlet-name>
+  <url-pattern>/servletDemo4</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <description></description>
+  <display-name>ServletDemo5</display-name>
+  <servlet-name>ServletDemo5</servlet-name>
+  <servlet-class>cn.itcast.chapter3_2.servlet.ServletDemo5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ServletDemo5</servlet-name>
+  <url-pattern>/servletDemo5</url-pattern>
+  </servlet-mapping>
+</web-app>
